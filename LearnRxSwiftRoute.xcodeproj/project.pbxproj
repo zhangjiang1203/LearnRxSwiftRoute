@@ -7,14 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8849E62F20900EAD003632BD /* UIView-CurrentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8849E62E20900EAD003632BD /* UIView-CurrentVC.swift */; };
+		8849E63120901096003632BD /* ZJGetCurrentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8849E63020901096003632BD /* ZJGetCurrentVC.swift */; };
+		8849E6332090338A003632BD /* ZJClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8849E6322090338A003632BD /* ZJClockView.swift */; };
+		8849E635209056BD003632BD /* ZJOperateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8849E634209056BD003632BD /* ZJOperateViewController.swift */; };
+		8849E63720905CB6003632BD /* ZJPhotoLibrary-Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8849E63620905CB6003632BD /* ZJPhotoLibrary-Rx.swift */; };
 		888EB2DB208F0360004462A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888EB2DA208F0360004462A3 /* AppDelegate.swift */; };
 		888EB2DD208F0360004462A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888EB2DC208F0360004462A3 /* ViewController.swift */; };
 		888EB2E0208F0360004462A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 888EB2DE208F0360004462A3 /* Main.storyboard */; };
 		888EB2E2208F0361004462A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 888EB2E1208F0361004462A3 /* Assets.xcassets */; };
 		888EB2E5208F0361004462A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 888EB2E3208F0361004462A3 /* LaunchScreen.storyboard */; };
+		888EB2EE208F0504004462A3 /* ZJBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888EB2ED208F0504004462A3 /* ZJBaseViewController.swift */; };
+		888EB2F0208F07E1004462A3 /* ZJAddPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888EB2EF208F07E1004462A3 /* ZJAddPhotoViewController.swift */; };
+		888EB2F4208F238C004462A3 /* ZJPhotoWrite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888EB2F3208F238C004462A3 /* ZJPhotoWrite.swift */; };
+		888EB2F8208F313C004462A3 /* UIViewController-AlertExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888EB2F7208F313C004462A3 /* UIViewController-AlertExtension.swift */; };
+		D55EE92233BCC5B9A8E5EF31 /* Pods_LearnRxSwiftRoute.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89F043377F4A903FD0ED838E /* Pods_LearnRxSwiftRoute.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8849E62E20900EAD003632BD /* UIView-CurrentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView-CurrentVC.swift"; sourceTree = "<group>"; };
+		8849E63020901096003632BD /* ZJGetCurrentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJGetCurrentVC.swift; sourceTree = "<group>"; };
+		8849E6322090338A003632BD /* ZJClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJClockView.swift; sourceTree = "<group>"; };
+		8849E634209056BD003632BD /* ZJOperateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJOperateViewController.swift; sourceTree = "<group>"; };
+		8849E63620905CB6003632BD /* ZJPhotoLibrary-Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ZJPhotoLibrary-Rx.swift"; sourceTree = "<group>"; };
 		888EB2D7208F0360004462A3 /* LearnRxSwiftRoute.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnRxSwiftRoute.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		888EB2DA208F0360004462A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		888EB2DC208F0360004462A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +37,13 @@
 		888EB2E1208F0361004462A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		888EB2E4208F0361004462A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		888EB2E6208F0361004462A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		888EB2ED208F0504004462A3 /* ZJBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJBaseViewController.swift; sourceTree = "<group>"; };
+		888EB2EF208F07E1004462A3 /* ZJAddPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJAddPhotoViewController.swift; sourceTree = "<group>"; };
+		888EB2F3208F238C004462A3 /* ZJPhotoWrite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJPhotoWrite.swift; sourceTree = "<group>"; };
+		888EB2F7208F313C004462A3 /* UIViewController-AlertExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController-AlertExtension.swift"; sourceTree = "<group>"; };
+		89F043377F4A903FD0ED838E /* Pods_LearnRxSwiftRoute.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearnRxSwiftRoute.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D21ADBC868D6FFBB756A4BC9 /* Pods-LearnRxSwiftRoute.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnRxSwiftRoute.release.xcconfig"; path = "Pods/Target Support Files/Pods-LearnRxSwiftRoute/Pods-LearnRxSwiftRoute.release.xcconfig"; sourceTree = "<group>"; };
+		F64127452B4A87B32E2B468A /* Pods-LearnRxSwiftRoute.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnRxSwiftRoute.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LearnRxSwiftRoute/Pods-LearnRxSwiftRoute.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +51,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D55EE92233BCC5B9A8E5EF31 /* Pods_LearnRxSwiftRoute.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		47EEDD1F87A2B8215E179BEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89F043377F4A903FD0ED838E /* Pods_LearnRxSwiftRoute.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F0134AE573E7565F1FAED99 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F64127452B4A87B32E2B468A /* Pods-LearnRxSwiftRoute.debug.xcconfig */,
+				D21ADBC868D6FFBB756A4BC9 /* Pods-LearnRxSwiftRoute.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		888EB2CE208F0360004462A3 = {
 			isa = PBXGroup;
 			children = (
 				888EB2D9208F0360004462A3 /* LearnRxSwiftRoute */,
 				888EB2D8208F0360004462A3 /* Products */,
+				6F0134AE573E7565F1FAED99 /* Pods */,
+				47EEDD1F87A2B8215E179BEA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +96,31 @@
 		888EB2D9208F0360004462A3 /* LearnRxSwiftRoute */ = {
 			isa = PBXGroup;
 			children = (
+				888EB2EC208F046F004462A3 /* BaseSubject */,
 				888EB2DA208F0360004462A3 /* AppDelegate.swift */,
 				888EB2DC208F0360004462A3 /* ViewController.swift */,
 				888EB2DE208F0360004462A3 /* Main.storyboard */,
 				888EB2E1208F0361004462A3 /* Assets.xcassets */,
 				888EB2E3208F0361004462A3 /* LaunchScreen.storyboard */,
 				888EB2E6208F0361004462A3 /* Info.plist */,
+				888EB2EF208F07E1004462A3 /* ZJAddPhotoViewController.swift */,
+				888EB2F3208F238C004462A3 /* ZJPhotoWrite.swift */,
+				8849E6322090338A003632BD /* ZJClockView.swift */,
+				8849E634209056BD003632BD /* ZJOperateViewController.swift */,
+				8849E63620905CB6003632BD /* ZJPhotoLibrary-Rx.swift */,
 			);
 			path = LearnRxSwiftRoute;
+			sourceTree = "<group>";
+		};
+		888EB2EC208F046F004462A3 /* BaseSubject */ = {
+			isa = PBXGroup;
+			children = (
+				888EB2ED208F0504004462A3 /* ZJBaseViewController.swift */,
+				888EB2F7208F313C004462A3 /* UIViewController-AlertExtension.swift */,
+				8849E62E20900EAD003632BD /* UIView-CurrentVC.swift */,
+				8849E63020901096003632BD /* ZJGetCurrentVC.swift */,
+			);
+			path = BaseSubject;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +130,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 888EB2E9208F0361004462A3 /* Build configuration list for PBXNativeTarget "LearnRxSwiftRoute" */;
 			buildPhases = (
+				AA52A1627B41AD4F3EB2C0BA /* [CP] Check Pods Manifest.lock */,
 				888EB2D3208F0360004462A3 /* Sources */,
 				888EB2D4208F0360004462A3 /* Frameworks */,
 				888EB2D5208F0360004462A3 /* Resources */,
+				501ADE5B21B23F17AF51DEAC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -90,9 +151,10 @@
 		888EB2CF208F0360004462A3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = ZJ;
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
-				ORGANIZATIONNAME = zitang;
+				ORGANIZATIONNAME = "张江";
 				TargetAttributes = {
 					888EB2D6208F0360004462A3 = {
 						CreatedOnToolsVersion = 9.3;
@@ -130,13 +192,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		501ADE5B21B23F17AF51DEAC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LearnRxSwiftRoute/Pods-LearnRxSwiftRoute-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LearnRxSwiftRoute/Pods-LearnRxSwiftRoute-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA52A1627B41AD4F3EB2C0BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LearnRxSwiftRoute-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		888EB2D3208F0360004462A3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				888EB2EE208F0504004462A3 /* ZJBaseViewController.swift in Sources */,
+				8849E63720905CB6003632BD /* ZJPhotoLibrary-Rx.swift in Sources */,
 				888EB2DD208F0360004462A3 /* ViewController.swift in Sources */,
+				8849E62F20900EAD003632BD /* UIView-CurrentVC.swift in Sources */,
 				888EB2DB208F0360004462A3 /* AppDelegate.swift in Sources */,
+				888EB2F0208F07E1004462A3 /* ZJAddPhotoViewController.swift in Sources */,
+				8849E635209056BD003632BD /* ZJOperateViewController.swift in Sources */,
+				888EB2F4208F238C004462A3 /* ZJPhotoWrite.swift in Sources */,
+				8849E6332090338A003632BD /* ZJClockView.swift in Sources */,
+				888EB2F8208F313C004462A3 /* UIViewController-AlertExtension.swift in Sources */,
+				8849E63120901096003632BD /* ZJGetCurrentVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +390,7 @@
 		};
 		888EB2EA208F0361004462A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F64127452B4A87B32E2B468A /* Pods-LearnRxSwiftRoute.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,6 +409,7 @@
 		};
 		888EB2EB208F0361004462A3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D21ADBC868D6FFBB756A4BC9 /* Pods-LearnRxSwiftRoute.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
