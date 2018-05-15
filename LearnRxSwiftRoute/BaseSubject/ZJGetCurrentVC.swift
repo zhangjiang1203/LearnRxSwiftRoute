@@ -21,11 +21,6 @@ protocol ZJGetCurrentVCProtocol {
 
 extension ZJGetCurrentVCProtocol {
     
-    var target:UIView {
-        return UIApplication.shared.keyWindow!
-    }
-    
-    
     /// 获取视图控制器
     ///
     /// - Returns: 返回视图控制器

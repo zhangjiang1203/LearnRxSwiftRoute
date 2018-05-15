@@ -7,11 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8849E62F20900EAD003632BD /* UIView-CurrentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8849E62E20900EAD003632BD /* UIView-CurrentVC.swift */; };
 		8849E63120901096003632BD /* ZJGetCurrentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8849E63020901096003632BD /* ZJGetCurrentVC.swift */; };
 		8849E6332090338A003632BD /* ZJClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8849E6322090338A003632BD /* ZJClockView.swift */; };
 		8849E635209056BD003632BD /* ZJOperateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8849E634209056BD003632BD /* ZJOperateViewController.swift */; };
 		8849E63720905CB6003632BD /* ZJPhotoLibrary-Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8849E63620905CB6003632BD /* ZJPhotoLibrary-Rx.swift */; };
+		885B0094209171EF004F40E7 /* ZJStudentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885B0093209171EF004F40E7 /* ZJStudentModel.swift */; };
+		885BC2DA209C339000EFBA9C /* DouBanModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885BC2D9209C339000EFBA9C /* DouBanModel.swift */; };
+		88640D6B209456EB00A35A00 /* ZJWeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88640D6A209456EB00A35A00 /* ZJWeatherModel.swift */; };
+		8866853220AADFD7001CC4E0 /* ZJRequestForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8866853120AADFD7001CC4E0 /* ZJRequestForm.swift */; };
+		8866853620AAE6F2001CC4E0 /* ZJRxAlamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8866853520AAE6F2001CC4E0 /* ZJRxAlamofire.swift */; };
+		888A68B1209AF5CB00DD2A4E /* ZJTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888A68B0209AF5CB00DD2A4E /* ZJTableViewController.swift */; };
 		888EB2DB208F0360004462A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888EB2DA208F0360004462A3 /* AppDelegate.swift */; };
 		888EB2DD208F0360004462A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888EB2DC208F0360004462A3 /* ViewController.swift */; };
 		888EB2E0208F0360004462A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 888EB2DE208F0360004462A3 /* Main.storyboard */; };
@@ -21,15 +26,24 @@
 		888EB2F0208F07E1004462A3 /* ZJAddPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888EB2EF208F07E1004462A3 /* ZJAddPhotoViewController.swift */; };
 		888EB2F4208F238C004462A3 /* ZJPhotoWrite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888EB2F3208F238C004462A3 /* ZJPhotoWrite.swift */; };
 		888EB2F8208F313C004462A3 /* UIViewController-AlertExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888EB2F7208F313C004462A3 /* UIViewController-AlertExtension.swift */; };
+		88A6F4E8209C3EA80000305F /* RxHandyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A6F4E7209C3EA80000305F /* RxHandyJSON.swift */; };
+		88A6F4EC209C51930000305F /* MJRefresh+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A6F4EB209C51930000305F /* MJRefresh+Rx.swift */; };
+		88E5906C209C5C46000C242A /* ZJShowDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E5906B209C5C46000C242A /* ZJShowDataModel.swift */; };
 		D55EE92233BCC5B9A8E5EF31 /* Pods_LearnRxSwiftRoute.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89F043377F4A903FD0ED838E /* Pods_LearnRxSwiftRoute.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8849E62E20900EAD003632BD /* UIView-CurrentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView-CurrentVC.swift"; sourceTree = "<group>"; };
 		8849E63020901096003632BD /* ZJGetCurrentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJGetCurrentVC.swift; sourceTree = "<group>"; };
 		8849E6322090338A003632BD /* ZJClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJClockView.swift; sourceTree = "<group>"; };
 		8849E634209056BD003632BD /* ZJOperateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJOperateViewController.swift; sourceTree = "<group>"; };
 		8849E63620905CB6003632BD /* ZJPhotoLibrary-Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ZJPhotoLibrary-Rx.swift"; sourceTree = "<group>"; };
+		885B0093209171EF004F40E7 /* ZJStudentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJStudentModel.swift; sourceTree = "<group>"; };
+		885BC2D9209C339000EFBA9C /* DouBanModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DouBanModel.swift; sourceTree = "<group>"; };
+		88640D68209444A300A35A00 /* RxSwift.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RxSwift.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		88640D6A209456EB00A35A00 /* ZJWeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJWeatherModel.swift; sourceTree = "<group>"; };
+		8866853120AADFD7001CC4E0 /* ZJRequestForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJRequestForm.swift; sourceTree = "<group>"; };
+		8866853520AAE6F2001CC4E0 /* ZJRxAlamofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJRxAlamofire.swift; sourceTree = "<group>"; };
+		888A68B0209AF5CB00DD2A4E /* ZJTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJTableViewController.swift; sourceTree = "<group>"; };
 		888EB2D7208F0360004462A3 /* LearnRxSwiftRoute.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnRxSwiftRoute.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		888EB2DA208F0360004462A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		888EB2DC208F0360004462A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -41,6 +55,9 @@
 		888EB2EF208F07E1004462A3 /* ZJAddPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJAddPhotoViewController.swift; sourceTree = "<group>"; };
 		888EB2F3208F238C004462A3 /* ZJPhotoWrite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJPhotoWrite.swift; sourceTree = "<group>"; };
 		888EB2F7208F313C004462A3 /* UIViewController-AlertExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController-AlertExtension.swift"; sourceTree = "<group>"; };
+		88A6F4E7209C3EA80000305F /* RxHandyJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxHandyJSON.swift; sourceTree = "<group>"; };
+		88A6F4EB209C51930000305F /* MJRefresh+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MJRefresh+Rx.swift"; sourceTree = "<group>"; };
+		88E5906B209C5C46000C242A /* ZJShowDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJShowDataModel.swift; sourceTree = "<group>"; };
 		89F043377F4A903FD0ED838E /* Pods_LearnRxSwiftRoute.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearnRxSwiftRoute.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D21ADBC868D6FFBB756A4BC9 /* Pods-LearnRxSwiftRoute.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnRxSwiftRoute.release.xcconfig"; path = "Pods/Target Support Files/Pods-LearnRxSwiftRoute/Pods-LearnRxSwiftRoute.release.xcconfig"; sourceTree = "<group>"; };
 		F64127452B4A87B32E2B468A /* Pods-LearnRxSwiftRoute.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnRxSwiftRoute.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LearnRxSwiftRoute/Pods-LearnRxSwiftRoute.debug.xcconfig"; sourceTree = "<group>"; };
@@ -75,6 +92,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		8866853020AAD35A001CC4E0 /* RxAlamofireRequest */ = {
+			isa = PBXGroup;
+			children = (
+				8866853120AADFD7001CC4E0 /* ZJRequestForm.swift */,
+				8866853520AAE6F2001CC4E0 /* ZJRxAlamofire.swift */,
+			);
+			path = RxAlamofireRequest;
+			sourceTree = "<group>";
+		};
 		888EB2CE208F0360004462A3 = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +122,7 @@
 		888EB2D9208F0360004462A3 /* LearnRxSwiftRoute */ = {
 			isa = PBXGroup;
 			children = (
+				8866853020AAD35A001CC4E0 /* RxAlamofireRequest */,
 				888EB2EC208F046F004462A3 /* BaseSubject */,
 				888EB2DA208F0360004462A3 /* AppDelegate.swift */,
 				888EB2DC208F0360004462A3 /* ViewController.swift */,
@@ -108,6 +135,12 @@
 				8849E6322090338A003632BD /* ZJClockView.swift */,
 				8849E634209056BD003632BD /* ZJOperateViewController.swift */,
 				8849E63620905CB6003632BD /* ZJPhotoLibrary-Rx.swift */,
+				885B0093209171EF004F40E7 /* ZJStudentModel.swift */,
+				88640D68209444A300A35A00 /* RxSwift.playground */,
+				88640D6A209456EB00A35A00 /* ZJWeatherModel.swift */,
+				888A68B0209AF5CB00DD2A4E /* ZJTableViewController.swift */,
+				885BC2D9209C339000EFBA9C /* DouBanModel.swift */,
+				88E5906B209C5C46000C242A /* ZJShowDataModel.swift */,
 			);
 			path = LearnRxSwiftRoute;
 			sourceTree = "<group>";
@@ -117,8 +150,9 @@
 			children = (
 				888EB2ED208F0504004462A3 /* ZJBaseViewController.swift */,
 				888EB2F7208F313C004462A3 /* UIViewController-AlertExtension.swift */,
-				8849E62E20900EAD003632BD /* UIView-CurrentVC.swift */,
 				8849E63020901096003632BD /* ZJGetCurrentVC.swift */,
+				88A6F4E7209C3EA80000305F /* RxHandyJSON.swift */,
+				88A6F4EB209C51930000305F /* MJRefresh+Rx.swift */,
 			);
 			path = BaseSubject;
 			sourceTree = "<group>";
@@ -200,12 +234,26 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-LearnRxSwiftRoute/Pods-LearnRxSwiftRoute-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
+				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAlamofire/RxAlamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAlamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,14 +289,22 @@
 				888EB2EE208F0504004462A3 /* ZJBaseViewController.swift in Sources */,
 				8849E63720905CB6003632BD /* ZJPhotoLibrary-Rx.swift in Sources */,
 				888EB2DD208F0360004462A3 /* ViewController.swift in Sources */,
-				8849E62F20900EAD003632BD /* UIView-CurrentVC.swift in Sources */,
+				885BC2DA209C339000EFBA9C /* DouBanModel.swift in Sources */,
+				88A6F4E8209C3EA80000305F /* RxHandyJSON.swift in Sources */,
 				888EB2DB208F0360004462A3 /* AppDelegate.swift in Sources */,
 				888EB2F0208F07E1004462A3 /* ZJAddPhotoViewController.swift in Sources */,
 				8849E635209056BD003632BD /* ZJOperateViewController.swift in Sources */,
+				88A6F4EC209C51930000305F /* MJRefresh+Rx.swift in Sources */,
 				888EB2F4208F238C004462A3 /* ZJPhotoWrite.swift in Sources */,
+				888A68B1209AF5CB00DD2A4E /* ZJTableViewController.swift in Sources */,
 				8849E6332090338A003632BD /* ZJClockView.swift in Sources */,
 				888EB2F8208F313C004462A3 /* UIViewController-AlertExtension.swift in Sources */,
 				8849E63120901096003632BD /* ZJGetCurrentVC.swift in Sources */,
+				88E5906C209C5C46000C242A /* ZJShowDataModel.swift in Sources */,
+				8866853620AAE6F2001CC4E0 /* ZJRxAlamofire.swift in Sources */,
+				8866853220AADFD7001CC4E0 /* ZJRequestForm.swift in Sources */,
+				88640D6B209456EB00A35A00 /* ZJWeatherModel.swift in Sources */,
+				885B0094209171EF004F40E7 /* ZJStudentModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

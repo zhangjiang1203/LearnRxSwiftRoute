@@ -24,11 +24,3 @@ extension UIViewController {
         })
     }
 }
-
-extension UIViewController {
-    
-    /// 获取当前的视图控制器
-    func getCurrentViewController() {
-        
-    }
-}

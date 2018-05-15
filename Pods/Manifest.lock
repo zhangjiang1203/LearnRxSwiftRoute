@@ -1,21 +1,54 @@
 PODS:
+  - Alamofire (4.7.2)
+  - Differentiator (3.0.2)
+  - HandyJSON (4.1.1)
+  - MJRefresh (3.1.15.3)
+  - ObjectMapper (3.1.0)
+  - RxAlamofire (4.2.0):
+    - RxAlamofire/Core (= 4.2.0)
+  - RxAlamofire/Core (4.2.0):
+    - Alamofire (~> 4.5)
+    - RxSwift (~> 4)
   - RxCocoa (4.1.2):
+    - RxSwift (~> 4.0)
+  - RxDataSources (3.0.2):
+    - Differentiator (~> 3.0)
+    - RxCocoa (~> 4.0)
     - RxSwift (~> 4.0)
   - RxSwift (4.1.2)
 
 DEPENDENCIES:
+  - HandyJSON
+  - MJRefresh
+  - ObjectMapper
+  - RxAlamofire
   - RxCocoa
+  - RxDataSources
   - RxSwift
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - Differentiator
+    - HandyJSON
+    - MJRefresh
+    - ObjectMapper
+    - RxAlamofire
     - RxCocoa
+    - RxDataSources
     - RxSwift
 
 SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  Differentiator: a87be69eba49ec4ab460c7671143ee3a9eececfd
+  HandyJSON: 3a3de917c4118767ffe41c29b5acba23409649f4
+  MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
+  ObjectMapper: 20505058f54e5c3ca69e1d6de9897d152a5369a6
+  RxAlamofire: 87a9c588541210cc3e4a1f843ccc3ecf3eb98b31
   RxCocoa: d88ba0f1f6abf040011a9eb4b539324fc426843a
+  RxDataSources: cb7c31e652a87ebb919da45f716bbb87b3765f6b
   RxSwift: e49536837d9901277638493ea537394d4b55f570
 
-PODFILE CHECKSUM: d26b68d9d9176a374dc85544156126c46011a17e
+PODFILE CHECKSUM: 4b89255116b1db6973866334a25491209816d33d
 
 COCOAPODS: 1.5.0

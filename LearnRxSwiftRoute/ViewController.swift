@@ -20,28 +20,27 @@ class ViewController: ZJBaseViewController {
         super.viewDidLoad()
         setUpMyLateUI()
         
-//        let clock = ZJClockView.init(frame: CGRect.init(x: 100, y: 100, width: 200, height: 100))
-//        clock.backgroundColor = UIColor.red
-//        self.view.addSubview(clock)
-    }
+}
     
     
     func setUpMyLateUI()  {
-        self.show(message: "现在开始点击我", title: "提示")
-            .take(5.0, scheduler: MainScheduler.instance)
-            .subscribe(onNext: { (index) in
-            print("点击了确定按钮" + "\(index)")
-        }).disposed(by: disposeBag)
-        
+//        self.show(message: "现在开始点击我", title: "提示")
+//            .take(5.0, scheduler: MainScheduler.instance)
+//            .subscribe(onNext: { (index) in
+//            print("点击了确定按钮" + "\(index)")
+//        }).disposed(by: disposeBag)
         
         clearBtn.rx.tap
-            .throttle(1.0, scheduler: MainScheduler.instance)//一秒之内不接受重复点击
             .subscribe(onNext: { [weak self] _ in
             //跳转到操作符操作界面
                 print("开始操作清除按钮")
-                let operateVC = ZJOperateViewController()
-                operateVC.title = "操作符"
-                self?.navigationController?.pushViewController(operateVC, animated: true)
+                
+//                let storyBoard = UIStoryboard.init(name: "Main", bundle: nil)
+//                let operateVC = storyBoard.instantiateViewController(withIdentifier: "ZJOperateViewController") as! ZJOperateViewController
+//                operateVC.title = "操作符"
+//                self?.navigationController?.pushViewController(operateVC, animated: true)
+                let tableVC = ZJTableViewController()
+                self?.navigationController?.pushViewController(tableVC, animated: true)
             
         }).disposed(by: disposeBag)
         

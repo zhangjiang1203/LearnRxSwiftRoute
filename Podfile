@@ -9,5 +9,12 @@ target 'LearnRxSwiftRoute' do
   # Pods for LearnRxSwiftRoute
   pod 'RxSwift'
   pod 'RxCocoa'
+#  pod 'RxBluetoothKit'
+  pod 'RxAlamofire'
+  pod 'RxDataSources'
+  pod 'HandyJSON'
+  pod 'ObjectMapper'
+  pod 'MJRefresh'
+  
 end
 
