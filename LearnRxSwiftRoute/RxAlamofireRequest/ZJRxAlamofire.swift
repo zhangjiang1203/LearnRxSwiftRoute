@@ -19,8 +19,10 @@ import Alamofire
  pod 'RxAlamofire'
  pod 'MBProgressHUD', '~> 1.1.0'
 
- 
- let request = RequestForm.getRequest("https://www.douban.com/j/app/radio/channels",parameters: nil,header: nil,hud: false);
+ let request = RequestForm.getRequest("https://www.douban.com/j/app/radio/channels",
+                                      parameters: nil,
+                                      header: nil,
+                                      hud: false);
  可省略为
  let request = RequestForm.getRequest("https://www.douban.com/j/app/radio/channels");
 
@@ -45,7 +47,11 @@ class ZJRxAlamofire {
             SVProgressHUD.show()
         }
         return Observable.create({ (obsever) in
-            return requestJSON(requestBody.method, requestBody.url, parameters: requestBody.parameters, encoding: requestBody.encoding, headers: requestBody.header)
+            return requestJSON(requestBody.method,
+                               requestBody.url,
+                               parameters: requestBody.parameters,
+                               encoding: requestBody.encoding,
+                               headers: requestBody.header)
                 .subscribe(onNext: { (response,data) in
                     //判断响应结果状态码
                     if 200 ..< 300 ~= response.statusCode {
@@ -68,7 +74,9 @@ class ZJRxAlamofire {
     ///   - requestBody:上传URL
     /// - Returns: 返回UploadRequest
     static func uploadFile(_ fileURL:URL, requestBody:RequestFormConvertible) -> Observable<UploadRequest> {
-        let url = try! URLRequest.init(url: requestBody.url, method: requestBody.method, headers: requestBody.header)
+        let url = try! URLRequest.init(url: requestBody.url,
+                                       method: requestBody.method,
+                                       headers: requestBody.header)
         return upload(fileURL, urlRequest: url)
     }
     

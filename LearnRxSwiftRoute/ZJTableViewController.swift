@@ -59,6 +59,7 @@ class ZJTableViewController: ZJBaseViewController {
         
         let request = RequestForm.getRequest("https://www.douban.com/j/app/radio/channels",hud:true);
         
+        
         ZJRxAlamofire.request(requestBody: request)
             .mapObject(type: DouBanModel.self)
             .observeOn(MainScheduler.instance)
