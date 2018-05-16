@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2BBF677530CA30F8D20513F0F104B0D2"
+               BlueprintIdentifier = "6057E0F965B9409B8CA4620D028CC031"
                BuildableName = "Pods_LearnRxSwiftRoute.framework"
                BlueprintName = "Pods-LearnRxSwiftRoute"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2BBF677530CA30F8D20513F0F104B0D2"
+            BlueprintIdentifier = "6057E0F965B9409B8CA4620D028CC031"
             BuildableName = "Pods_LearnRxSwiftRoute.framework"
             BlueprintName = "Pods-LearnRxSwiftRoute"
             ReferencedContainer = "container:Pods.xcodeproj">
