@@ -16,6 +16,9 @@ protocol RequestFormConvertible {
     var parameters : Parameters? { get }
     var encoding : ParameterEncoding { get }
     var header :HTTPHeaders? { get }
+    ///显示指示器
+    var hud:Bool? {get}
+    
 }
 
 struct RequestForm : RequestFormConvertible{
@@ -25,6 +28,8 @@ struct RequestForm : RequestFormConvertible{
     var parameters : Parameters?
     var encoding : ParameterEncoding = URLEncoding.default
     var header : HTTPHeaders?
+    var hud: Bool?
+    
     
     //添加默认值
     static var defaultHeaders:HTTPHeaders {
@@ -39,30 +44,26 @@ struct RequestForm : RequestFormConvertible{
     }
     
     /// 便利构造
-    init(url:URLConvertible,method:HTTPMethod,parameters:Parameters?,encoding:ParameterEncoding,header:HTTPHeaders?) {
+    init(url:URLConvertible,method:HTTPMethod,parameters:Parameters?,encoding:ParameterEncoding,header:HTTPHeaders?,hud:Bool?) {
         self.url = url
         self.method = method
         self.parameters = parameters
         self.encoding = encoding
         self.header = header ?? RequestForm.defaultHeaders
+        self.hud = hud
     }
     
     /// encoding 为JSON
-    static func jsonRequest(_ url:URLConvertible,method:HTTPMethod,parameters:Parameters? = nil,header:HTTPHeaders? = nil) -> RequestForm {
-        return self.init(url: url, method: method, parameters: parameters, encoding: JSONEncoding.default, header:header)
+    static func jsonRequest(_ url:URLConvertible,method:HTTPMethod,parameters:Parameters? = nil,header:HTTPHeaders? = nil,hud:Bool? = false) -> RequestForm {
+        return self.init(url: url, method: method, parameters: parameters, encoding: JSONEncoding.default, header:header,hud: hud)
     }
     
     /// get请求 编码默认为JSON
-    static func getRequest(_ url:URLConvertible,parameters:Parameters? = nil,header:HTTPHeaders? = nil) -> RequestForm {
-        return self.init(url: url, method: .get, parameters: parameters, encoding: JSONEncoding.default, header:header)
+    static func getRequest(_ url:URLConvertible,parameters:Parameters? = nil,header:HTTPHeaders? = nil,hud:Bool? = false) -> RequestForm {
+        return self.init(url: url, method: .get, parameters: parameters, encoding: JSONEncoding.default, header:header,hud: hud)
     }
     /// post请求 编码默认为JSON
-    static func postRequest(_ url:URLConvertible,parameters:Parameters? = nil,header:HTTPHeaders? = nil) -> RequestForm {
-        return self.init(url: url, method: .post, parameters: parameters, encoding: JSONEncoding.default, header:header)
+    static func postRequest(_ url:URLConvertible,parameters:Parameters? = nil,header:HTTPHeaders? = nil,hud:Bool? = false) -> RequestForm {
+        return self.init(url: url, method: .post, parameters: parameters, encoding: JSONEncoding.default, header:header,hud: hud)
     }
-
-    
-    
-    
-    
 }

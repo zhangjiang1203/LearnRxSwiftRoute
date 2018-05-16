@@ -32,10 +32,10 @@ class ZJTableViewController: ZJBaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
-        setMyTableView()
+//        setMyTableView()
         
 //        addPickerView()
-//        alamofireRequestTest()
+        alamofireRequestTest()
     }
     
     //MARK:添加显示的pickerView
@@ -57,38 +57,17 @@ class ZJTableViewController: ZJBaseViewController {
     
     func alamofireRequestTest()  {
         
-        let request = RequestForm.getRequest("", parameters: nil, header: nil);
+        let request = RequestForm.getRequest("https://www.douban.com/j/app/radio/channels",hud:true);
+        
         ZJRxAlamofire.request(requestBody: request)
+            .mapObject(type: DouBanModel.self)
+            .observeOn(MainScheduler.instance)
+            .subscribe(onNext: { (model) in
+                print("拿到的model===%@===",model)
+            }, onError: { (error) in
+                print("出错信息==%@",error.localizedDescription)
+            }).disposed(by: disposeBag)
         
-        //创建URL对象
-//        let urlString = "https://www.douban.com/j/app/radio/channels"
-//        let url = URL(string:urlString)
-//        //创建请求对象
-//        let request = URLRequest(url: url!)
-        
-        //获取列表数据
-//        URLSession.shared.rx.json(request: request)
-//            .mapObject(type: DouBanModel.self)
-//            .subscribe(onNext: { (model) in
-//                model.channels.map({ (channnel) in
-//                    print(channnel.description)
-//                })
-//            }).disposed(by: disposeBag)
-
-//        requestJSON(.get, url!)
-//            .map({$1})
-//            .mapObject(type:DouBanModel.self)
-//            .subscribe(onNext: { (model) in
-//                print(model)
-//            }).disposed(by: disposeBag)
-        
-//        json(.get, url!)
-////            .map({$0})
-//            .mapObject(type:DouBanModel.self)
-//            .subscribe(onNext: { (model) in
-//                print(model)
-//            }).disposed(by: disposeBag)
-
     }
     
     func setMyTableView() {

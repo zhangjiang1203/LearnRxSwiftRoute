@@ -9,12 +9,14 @@ target 'LearnRxSwiftRoute' do
   # Pods for LearnRxSwiftRoute
   pod 'RxSwift'
   pod 'RxCocoa'
-#  pod 'RxBluetoothKit'
+  #  pod 'RxBluetoothKit'
   pod 'RxAlamofire'
   pod 'RxDataSources'
   pod 'HandyJSON'
   pod 'ObjectMapper'
   pod 'MJRefresh'
+  #  添加的OC类库
+  pod 'SVProgressHUD', '~> 2.2.5'
   
 end
 
