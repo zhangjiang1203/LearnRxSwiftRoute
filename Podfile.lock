@@ -1,21 +1,24 @@
 PODS:
-  - Alamofire (4.7.2)
-  - Differentiator (3.0.2)
-  - HandyJSON (4.1.1)
-  - MJRefresh (3.1.15.3)
-  - ObjectMapper (3.1.0)
-  - RxAlamofire (4.2.0):
-    - RxAlamofire/Core (= 4.2.0)
-  - RxAlamofire/Core (4.2.0):
-    - Alamofire (~> 4.5)
-    - RxSwift (~> 4)
-  - RxCocoa (4.1.2):
-    - RxSwift (~> 4.0)
-  - RxDataSources (3.0.2):
-    - Differentiator (~> 3.0)
-    - RxCocoa (~> 4.0)
-    - RxSwift (~> 4.0)
-  - RxSwift (4.1.2)
+  - Alamofire (4.9.1)
+  - Differentiator (4.0.1)
+  - HandyJSON (5.0.1)
+  - MJRefresh (3.2.2)
+  - ObjectMapper (3.5.1)
+  - RxAlamofire (5.1.0):
+    - RxAlamofire/Core (= 5.1.0)
+  - RxAlamofire/Core (5.1.0):
+    - Alamofire (~> 4.8)
+    - RxSwift (~> 5.0)
+  - RxCocoa (5.0.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxDataSources (4.0.1):
+    - Differentiator (~> 4.0)
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - RxRelay (5.0.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.0.1)
   - SVProgressHUD (2.2.5)
 
 DEPENDENCIES:
@@ -29,7 +32,7 @@ DEPENDENCIES:
   - SVProgressHUD (~> 2.2.5)
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  trunk:
     - Alamofire
     - Differentiator
     - HandyJSON
@@ -38,21 +41,23 @@ SPEC REPOS:
     - RxAlamofire
     - RxCocoa
     - RxDataSources
+    - RxRelay
     - RxSwift
     - SVProgressHUD
 
 SPEC CHECKSUMS:
-  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
-  Differentiator: a87be69eba49ec4ab460c7671143ee3a9eececfd
-  HandyJSON: 3a3de917c4118767ffe41c29b5acba23409649f4
-  MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
-  ObjectMapper: 20505058f54e5c3ca69e1d6de9897d152a5369a6
-  RxAlamofire: 87a9c588541210cc3e4a1f843ccc3ecf3eb98b31
-  RxCocoa: d88ba0f1f6abf040011a9eb4b539324fc426843a
-  RxDataSources: cb7c31e652a87ebb919da45f716bbb87b3765f6b
-  RxSwift: e49536837d9901277638493ea537394d4b55f570
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  Differentiator: 886080237d9f87f322641dedbc5be257061b0602
+  HandyJSON: d45b8415c501e3affc59ca9762c1197ff0feb646
+  MJRefresh: 72a46ecaa2a0feaf48fc5198dff95f25f8bb27c6
+  ObjectMapper: 70187b8941977c62ccfb423caf6b50be405cabf0
+  RxAlamofire: a2d7621de4c23a0c6e7b476b504acc32838ee341
+  RxCocoa: e741b9749968e8a143e2b787f1dfbff2b63d0a5c
+  RxDataSources: efee07fa4de48477eca0a4611e6d11e2da9c1114
+  RxRelay: 89d54507f4fd4d969e6ec1d4bd7f3673640b4640
+  RxSwift: e2dc62b366a3adf6a0be44ba9f405efd4c94e0c4
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
 PODFILE CHECKSUM: d330577b89fadc373510e50ca037dd6c0c303be5
 
-COCOAPODS: 1.5.0
+COCOAPODS: 1.8.4

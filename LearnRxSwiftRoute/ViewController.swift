@@ -57,7 +57,7 @@ class ViewController: ZJBaseViewController {
     
     
     @IBAction func pushMyNextViewController(_ sender: UIBarButtonItem) {
-        
+    
         let addVC = storyboard?.instantiateViewController(withIdentifier: "addPhotoVC") as! ZJAddPhotoViewController
         addVC.selectPhoto.subscribe(onNext: { (showStr) in
             print("代理传回来的信息" + showStr)
