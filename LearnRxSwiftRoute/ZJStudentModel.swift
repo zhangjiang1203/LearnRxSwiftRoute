@@ -8,8 +8,10 @@
 
 import UIKit
 import RxSwift
+import RxCocoa
 
 struct ZJStudentModel {
-    var score:Variable<Int>
+    
+    var score:BehaviorRelay<Int>
     
 }
