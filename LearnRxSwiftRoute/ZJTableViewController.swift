@@ -83,7 +83,7 @@ class ZJTableViewController: ZJBaseViewController {
         myTableView?.mj_header = MJRefreshNormalHeader()
         
         //初始化ViewModel
-        let viewModel = ZJShowDataModel.init(headerRefresh: (self.myTableView?.mj_header.rx.refreshing.asDriver())!)
+        let viewModel = ZJShowDataModel.init(headerRefresh: (self.myTableView?.mj_header?.rx.refreshing.asDriver())!)
         
         
         viewModel.tableData
@@ -95,7 +95,7 @@ class ZJTableViewController: ZJBaseViewController {
             .disposed(by: disposeBag)
         
         viewModel.endHeaderRefresh.drive(onNext: { (refresh) in
-            self.myTableView?.mj_header.endRefreshing()
+            self.myTableView?.mj_header?.endRefreshing()
         }).disposed(by: disposeBag)
         
 //        viewModel.endHeaderRefresh

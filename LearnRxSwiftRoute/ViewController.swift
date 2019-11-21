@@ -15,7 +15,7 @@ class ViewController: ZJBaseViewController {
     @IBOutlet weak var myHeaderImageView: UIImageView!
     @IBOutlet weak var saveBtn: UIButton!
     @IBOutlet weak var clearBtn: UIButton!
-    private let images = Variable<[UIImage]>([])
+    private let images = BehaviorRelay(value: [UIImage]())
     override func viewDidLoad() {
         super.viewDidLoad()
         setUpMyLateUI()
